@@ -1,0 +1,13 @@
+{
+  "name": "herdr-workflow",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "description": "Herdr mod: engram, codegraph and context-mode state for the focused pane's repo, on this computer or an ssh machine",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
